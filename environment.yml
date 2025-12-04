@@ -1,0 +1,15 @@
+name: ds-masterplan
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - notebook
+  - pip
+  - pip:
+    - black
+    - pytest
