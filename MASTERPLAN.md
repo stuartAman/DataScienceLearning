@@ -1,30 +1,56 @@
 # 🎓 12-Month Data Science Masterplan
 
-A difficulty-weighted, project-driven 12-month plan to build a strong data-science portfolio.
+A **difficulty-weighted, project-driven** 12-month plan to build a strong data-science portfolio. Paced by cognitive load, not calendar days.
 
 ## Summary
-- Total time (approx): ~765 hours
-- Outcome: 10–12 GitHub projects, 2 deployed ML systems, interview-ready portfolio
+- **Total time:** ~765 hours over 12 months
+- **Outcome:** 10–12 GitHub projects, 2 deployed ML systems, interview-ready portfolio
+- **Methodology:** Wave Learning Model (Learn → Apply → Project → Reinforce → Master)
 
-## Month Overview
-- Month 1: Python Core — Easy (40 hours)
-- Month 2: NumPy & Pandas — Medium (60 hours)
-- Month 3: Visualization & EDA — Medium (45 hours)
-- Months 4–5: Statistics & Probability — Hard (100 hours)
-- Month 6: SQL — Medium (50 hours)
-- Months 7–8: Machine Learning — Hard (120 hours)
-- Month 9: Feature Engineering & Unsupervised — Medium-Hard (80 hours)
-- Month 10: NLP — Hard (90 hours)
-- Month 11: Time Series + Spark — Very Hard (100 hours)
-- Month 12: Portfolio & Deployment — Hard (80 hours)
+## ⭐ Difficulty Weight Scale
 
-## Learning Wave Model
-Each month: Learn (theory) → Apply (notebooks) → Project (real dataset) → Reinforce (flashcards) → Master (capstone every 2 months).
+| Difficulty | Time per Topic | Examples |
+|-----------|----------------|----------|
+| ⭐ Easy | 1–2 days | Python basics, Jupyter, Pandas basics, visualization |
+| ⭐⭐ Medium | 4–7 days | Feature engineering, SQL, evaluation metrics |
+| ⭐⭐⭐ Hard | 10–20 days | Statistics, ML algorithms, NLP, time series |
+| ⭐⭐⭐⭐ Very Hard | 14–25 days | Bayesian stats, advanced NLP, ARIMA/Prophet, Spark |
 
-## How to use this repo
-1. Follow each month's `README.md` in `months/`.
-2. Track progress in `resources/PROGRESS.md`.
-3. Use `setup.bat` to create a local environment (Windows).
+## 🧠 Learning Wave Model
+
+Each month follows this pattern:
+1. **Learn** — Theory videos + documentation
+2. **Apply** — Practice notebooks with exercises
+3. **Project** — Real dataset implementation
+4. **Reinforce** — Spaced repetition via flashcards
+5. **Master** — Larger capstone every 2 months
+
+**Key Principle:** Easy topics move fast. Hard topics get more time, repetition, and projects.
+
+## 📊 12-Month Difficulty-Weighted Path
+
+| Month | Topic | Difficulty | Hours | Status |
+|-------|-------|-----------|-------|--------|
+| 1 | Python Core | ⭐ Easy | 40 | ⏳ In Progress |
+| 2 | NumPy + Pandas | ⭐⭐ Medium | 60 | 🔄 To Start |
+| 3 | Visualization + EDA | ⭐⭐ Medium | 45 | 🔄 To Start |
+| 4-5 | Statistics & Probability | ⭐⭐⭐ Hard | 100 | 🔄 To Start |
+| 6 | SQL Mastery | ⭐⭐ Medium | 50 | 🔄 To Start |
+| 7-8 | Machine Learning | ⭐⭐⭐ Hard | 120 | 🔄 To Start |
+| 9 | Feature Engineering + Clustering | ⭐⭐⭐ Hard | 80 | 🔄 To Start |
+| 10 | NLP | ⭐⭐⭐ Hard | 90 | 🔄 To Start |
+| 11 | Time Series + Spark | ⭐⭐⭐⭐ Very Hard | 100 | 🔄 To Start |
+| 12 | Portfolio + Deployment | ⭐⭐⭐ Hard | 80 | 🔄 To Start |
+
+**Total: ~765 hours**
+
+## How to Use This Repo
+
+1. **Follow each month's `README.md`** in `months/` with sprint breakdowns
+2. **Work through sprints in order** — they're sequenced by difficulty
+3. **Complete projects** using real datasets
+4. **Track progress** in `resources/PROGRESS.md`
+5. **Use `setup.bat`** to create Python environment (Windows)
 
 ---
 _Created: December 5, 2025_

@@ -1,91 +1,163 @@
 # 🐍 Month 1 — Python Core Foundations
 
-**Duration:** 40 hours
-**Difficulty:** Easy
+**Duration:** 40 hours  
+**Difficulty:** ⭐ Easy  
 **Goal:** Write real Python code ASAP
 
-## Sprints
-- Sprint 1 (Days 1–5): Basics — variables, loops, conditionals
-- Sprint 2 (Days 6–8): Data structures — lists, dicts, sets, tuples
-- Sprint 3 (Days 9–12): Functions, lambdas, modules
-- Sprint 4 (Days 13–15): File I/O (CSV, JSON)
-- Sprint 5 (Days 16–18): Error handling + debugging
+## 🎯 Learning Outcomes
+- Understand variables, data types, and control flow
+- Write functions and organize code into modules
+- Handle files and errors gracefully
+- Complete mini-projects with Python
 
-## Mini Project
-- Expense Tracker CLI saving data as JSON
+## 📅 Sprint Breakdown
 
-## Deliverables
-- Notebooks: `notebooks/01_basics.ipynb`, `notebooks/02_data_structures.ipynb`, `notebooks/03_functions.ipynb`
-- Project: `projects/expense_tracker/` with `README.md` and tests
-# 🐍 Month 1: Python Core Foundations
+| Sprint | Days | Topic | Focus |
+|--------|------|-------|-------|
+| Sprint 1 | 1–5 | Variables, Loops, Conditions | Basics |
+| Sprint 2 | 6–8 | Lists, Dicts, Sets, Tuples | Data structures |
+| Sprint 3 | 9–12 | Functions, Lambda, Modules | Code organization |
+| Sprint 4 | 13–15 | File Handling, JSON, CSV | I/O operations |
+| Sprint 5 | 16–18 | Error Handling + Debugging | Robustness |
+| Mini Project | 19–22 | Expense Tracker + Student Manager | Application |
+| Consolidation | 23–30 | Review, Refactor, Git | Polish |
 
-**Duration:** 40 hours
-**Difficulty:** ⭐ Easy
-**Goal:** Write real Python code ASAP
+## 📚 Detailed Topics
 
-## 📚 Topics
-
-### Sprint 1: Basics (Days 1-5)
-- Variables and data types
-- Input/output
-- Operators
+### Sprint 1: Python Basics (Days 1–5)
+**Topics:**
+- Print, variables, data types (int, str, float, bool)
+- Arithmetic & comparison operators
 - Loops (for, while)
-- Conditionals (if/elif/else)
+- Conditionals (if, elif, else)
 
-**Practice:** Write 5 small scripts
+**Practice:**
+- Write 10+ simple scripts
+- Build a temperature converter
+- Create a simple quiz program
 
-### Sprint 2: Data Structures (Days 6-8)
-- Lists and indexing
-- Dictionaries and keys
-- Sets and tuples
-- List comprehensions
+**Notebook:** `notebooks/01_basics.ipynb`
 
-**Practice:** Manipulate data structures
+### Sprint 2: Data Structures (Days 6–8)
+**Topics:**
+- Lists: indexing, slicing, methods (append, remove, sort)
+- Dictionaries: keys, values, iteration
+- Sets: unique elements, operations
+- Tuples: immutable sequences
 
-### Sprint 3: Functions (Days 9-12)
-- Defining functions
-- Parameters and return values
+**Practice:**
+- Manipulate lists and dicts
+- Filter and sort data
+- Work with nested structures
+
+**Notebook:** `notebooks/02_data_structures.ipynb`
+
+### Sprint 3: Functions & Modules (Days 9–12)
+**Topics:**
+- Defining functions, parameters, return values
+- Default arguments, *args, **kwargs
 - Lambda functions
-- Modules and imports
+- Importing modules (math, random, datetime)
 
-**Practice:** Write reusable functions
+**Practice:**
+- Write reusable functions
+- Use lambda with map/filter
+- Organize code into modules
 
-### Sprint 4: File Handling (Days 13-15)
-- Reading/writing files
-- JSON handling
-- CSV with standard library
-- Error handling basics
+**Notebook:** `notebooks/03_functions.ipynb`
 
-**Practice:** Parse CSV files
+### Sprint 4: File Handling (Days 13–15)
+**Topics:**
+- Reading/writing text files
+- JSON and CSV parsing
+- Working with file paths
+- Context managers (with statement)
 
-### Sprint 5: Error Handling (Days 16-18)
+**Practice:**
+- Parse CSV files
+- Convert data formats
+- Handle large files
+
+**Notebook:** `notebooks/04_file_handling.ipynb`
+
+### Sprint 5: Error Handling (Days 16–18)
+**Topics:**
 - Try/except blocks
 - Custom exceptions
-- Debugging
-- Logging
+- Debugging techniques
+- Logging basics
 
-**Practice:** Handle errors gracefully
+**Practice:**
+- Handle common errors gracefully
+- Write robust code
+- Debug using print statements and pdb
 
-## 🎯 Project: Expense Tracker
+**Notebook:** `notebooks/05_error_handling.ipynb`
 
-**Objective:** Build a CLI expense tracker
-**Skills:** File I/O, data structures, functions
+## 🎁 Mini Project: Expense Tracker
+
+**Duration:** Days 19–22
+
+**Objective:** Build a CLI tool to track daily expenses
+
+**Requirements:**
+- Add/remove expenses
+- Save to JSON file
+- Filter by date or category
+- Generate expense reports
+
 **Deliverables:**
-- CLI interface
-- Save expenses to JSON
-- Query/filter expenses
-- Generate reports
+- `main.py` — main application
+- `expenses.json` — sample data
+- `README.md` — usage instructions
+- `tests/` — simple unit tests
 
-## 📖 Resources
+**Example Output:**
+```
+$ python main.py
+1. Add expense
+2. View expenses
+3. Generate report
+4. Exit
+> 1
+Category: Food
+Amount: 25.50
+Date (YYYY-MM-DD): 2025-12-05
+✅ Expense added!
+```
 
-- [Python Docs](https://docs.python.org/3/)
-- [W3Schools Python](https://www.w3schools.com/python/)
-- [Real Python](https://realpython.com/)
+## 📋 Consolidation Phase (Days 23–30)
+
+- Review all 5 sprints
+- Refactor expense tracker code
+- Add more features (categories, budgets)
+- Initialize Git repo and commit
+- Write proper documentation
 
 ## ✅ Checklist
 
-- [ ] Complete all 5 sprints
+- [ ] Complete Sprint 1 (basics)
+- [ ] Complete Sprint 2 (data structures)
+- [ ] Complete Sprint 3 (functions)
+- [ ] Complete Sprint 4 (file handling)
+- [ ] Complete Sprint 5 (error handling)
 - [ ] Finish expense tracker project
 - [ ] Push code to GitHub
 - [ ] Write project README
 - [ ] Review and refactor code
+
+## 📚 Resources
+
+- [Python Official Docs](https://docs.python.org/3/)
+- [Real Python Tutorials](https://realpython.com/)
+- [W3Schools Python](https://www.w3schools.com/python/)
+- [Python for Everybody](https://www.py4e.com/)
+
+## 🎓 Key Takeaways
+
+By end of Month 1, you should be able to:
+✅ Write clean, organized Python code  
+✅ Build a complete CLI application  
+✅ Handle files and data structures  
+✅ Debug and fix errors  
+✅ Use Git for version control
